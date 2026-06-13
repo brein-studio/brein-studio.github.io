@@ -14,9 +14,14 @@
 
 .nav-list .nav-list-item .nav-list-link {
   color: #cbd5e1;
+
+  background: rgba(255, 255, 255, 0.05);
+
   border-radius: 8px;
   margin: 4px 8px;
   padding: 9px 12px;
+
+  transition: all 0.15s ease;
 }
 
 .nav-list .nav-list-item .nav-list-link:hover {
@@ -40,7 +45,7 @@
   content: "Environments";
   display: block;
 
-  margin: 18px 8px 8px 8px;
+  margin: 38px 8px 8px 8px;
   padding-top: 14px;
 
   border-top: 1px solid rgba(255,255,255,0.18);
