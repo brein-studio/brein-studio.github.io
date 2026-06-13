@@ -3,8 +3,6 @@ layout: home
 title: BRein Studio
 ---
 
-# BRein Studio
-
 **BRein Studio** is a framework for Safe Reinforcement Learning from executable B models.
 
 It connects Reinforcement Learning algorithms with B specifications through ProB, allowing agents to learn directly from formally specified systems.
@@ -17,6 +15,4 @@ It connects Reinforcement Learning algorithms with B specifications through ProB
 - Define rewards directly in the B specification
 - Visualise learned traces and cumulative rewards
 
-## Links
 
-- [Source code](https://github.com/brein-studio/brein-studio)
