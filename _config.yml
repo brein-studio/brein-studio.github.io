@@ -1,8 +1,15 @@
 title: BRein Studio
 description: Safe Reinforcement Learning from B Models
-theme: just-the-docs
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
 
 url: https://brein-studio.github.io
+
+nav_enabled: true
+search_enabled: true
 
 aux_links:
   GitHub Repository: https://github.com/brein-studio/brein-studio
