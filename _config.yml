@@ -1,5 +1,8 @@
 title: BRein Studio
 description: Safe Reinforcement Learning from B Models
-theme: minima
-markdown: kramdown
-nav_enabled: true
+theme: just-the-docs
+
+url: https://brein-studio.github.io
+
+aux_links:
+  GitHub Repository: https://github.com/brein-studio/brein-studio
