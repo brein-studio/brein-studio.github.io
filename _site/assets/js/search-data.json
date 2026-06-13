@@ -1,18 +1,32 @@
 {"0": {
-    "doc": "BRein Studio",
-    "title": "Features",
-    "content": ". | Execute RL algorithms on B machines | Use ProB as the formal execution engine | Define safety constraints with B invariants | Define rewards directly in the B specification | Visualise learned traces and cumulative rewards | . ",
-    "url": "/#features",
+    "doc": "Home",
+    "title": "Safe Reinforcement Learning from B Models",
+    "content": "Learn policies directly from formal specifications using ProB and B invariants. Explore Environments GitHub . ",
+    "url": "/#safe-reinforcement-learning-from-b-models",
     
-    "relUrl": "/#features"
+    "relUrl": "/#safe-reinforcement-learning-from-b-models"
   },"1": {
-    "doc": "BRein Studio",
-    "title": "BRein Studio",
-    "content": "BRein Studio is a framework for Safe Reinforcement Learning from executable B models. It connects Reinforcement Learning algorithms with B specifications through ProB, allowing agents to learn directly from formally specified systems. ",
+    "doc": "Home",
+    "title": "What is BRein Studio?",
+    "content": "BRein Studio connects Reinforcement Learning algorithms with executable B specifications. Instead of implementing an environment manually, an agent interacts directly with a formally specified system through the ProB animator and model-checker. ",
+    "url": "/#what-is-brein-studio",
+    
+    "relUrl": "/#what-is-brein-studio"
+  },"2": {
+    "doc": "Home",
+    "title": "Available Environments",
+    "content": "Taxi Driver . Discrete navigation and pickup/drop-off tasks. Open Taxi Driver → . ",
+    "url": "/#available-environments",
+    
+    "relUrl": "/#available-environments"
+  },"3": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"2": {
+  },"4": {
     "doc": "Taxi Driver",
     "title": "Taxi Driver",
     "content": "Description de l’environnement Taxi Driver. ",

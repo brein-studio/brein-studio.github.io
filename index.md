@@ -1,17 +1,33 @@
 ---
 layout: home
-title: BRein Studio
+title: Home
 nav_order: 1
 ---
 
-**BRein Studio** is a framework for Safe Reinforcement Learning from executable B models.
+# Safe Reinforcement Learning from B Models
 
-It connects Reinforcement Learning algorithms with B specifications through ProB, allowing agents to learn directly from formally specified systems.
+Learn policies directly from formal specifications using ProB and B invariants.
 
-## Features
+[Explore Environments](taxi-driver){: .btn .btn-primary }
+[GitHub](https://github.com/brein-studio/brein-studio){: .btn }
 
-- Execute RL algorithms on B machines
-- Use ProB as the formal execution engine
-- Define safety constraints with B invariants
-- Define rewards directly in the B specification
-- Visualise learned traces and cumulative rewards
+
+## What is BRein Studio?
+
+BRein Studio connects Reinforcement Learning algorithms with executable B specifications.
+
+Instead of implementing an environment manually, an agent interacts directly with a formally specified system through the ProB animator and model-checker.
+
+<p align="center">
+  <img src="figs/envprob.png" width="700">
+</p>
+
+
+## Available Environments
+
+### Taxi Driver
+
+Discrete navigation and pickup/drop-off tasks.
+
+[Open Taxi Driver →](taxi-driver)
+

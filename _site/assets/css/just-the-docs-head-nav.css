@@ -1,3 +1,3 @@
-.nav-list .nav-list-item .nav-list-link.active { background: #2563eb; color: white; font-weight: 700; }
+.nav-list .nav-list-item:nth-child(2)::before { content: "Environments"; display: block; margin: 18px 8px 8px 8px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, 0.18); color: white; font-size: 0.85rem; font-weight: 700; }
 
 .site-nav ul li a { background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%); }

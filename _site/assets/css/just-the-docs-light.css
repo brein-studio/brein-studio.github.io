@@ -2388,8 +2388,16 @@ div.opaque { background-color: #fff; }
 
 .site-title { color: white !important; font-weight: 800; }
 
-.nav-list .nav-list-item .nav-list-link { color: #cbd5e1; border-radius: 8px; margin: 2px 8px; padding: 8px 12px; }
+.site-title:hover { background: transparent; }
+
+.nav-list .nav-list-item .nav-list-link { color: #cbd5e1; border-radius: 8px; margin: 4px 8px; padding: 9px 12px; }
 
 .nav-list .nav-list-item .nav-list-link:hover { background: rgba(255, 255, 255, 0.08); color: white; }
 
 .nav-list .nav-list-item .nav-list-link.active { background: #2563eb; color: white; font-weight: 700; }
+
+/* meilleur espacement */
+.nav-list { margin-top: 1rem; }
+
+/* Separator before the environments */
+.nav-list .nav-list-item:nth-child(2)::before { content: "Environments"; display: block; margin: 18px 8px 8px 8px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, 0.18); color: white; font-size: 0.85rem; font-weight: 700; }
