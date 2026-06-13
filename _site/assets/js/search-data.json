@@ -1,0 +1,23 @@
+{"0": {
+    "doc": "BRein Studio",
+    "title": "Features",
+    "content": ". | Execute RL algorithms on B machines | Use ProB as the formal execution engine | Define safety constraints with B invariants | Define rewards directly in the B specification | Visualise learned traces and cumulative rewards | . ",
+    "url": "/#features",
+    
+    "relUrl": "/#features"
+  },"1": {
+    "doc": "BRein Studio",
+    "title": "BRein Studio",
+    "content": "BRein Studio is a framework for Safe Reinforcement Learning from executable B models. It connects Reinforcement Learning algorithms with B specifications through ProB, allowing agents to learn directly from formally specified systems. ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"2": {
+    "doc": "Taxi Driver",
+    "title": "Taxi Driver",
+    "content": "Description de l’environnement Taxi Driver. ",
+    "url": "/taxi-driver.html",
+    
+    "relUrl": "/taxi-driver.html"
+  }
+}
