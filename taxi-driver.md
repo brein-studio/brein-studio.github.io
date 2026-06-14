@@ -30,7 +30,7 @@ brein-studio/taxi_driver
 - Open machine `SafeTaxiDriver_5_5.mch`, 
 - Load th VisB file: `TaxiDriverEnvironment.visb.json`,
 - Select reward mode **Once-and-For-All (subscribed state formula)**,
-- Enter `ManhattanDistance` (or any other reward from fil `rewards.def`),
+- Enter `ManhattanDistance` (or any other reward from file `rewards.def`),
 - Choose **MPI**,
 - Click **Explore**, then **Run**.
 - To automatically execute the learned policy, press **⏭**
