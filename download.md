@@ -9,9 +9,9 @@ BRein Studio is available for Windows, macOS, and Linux.
 
 | Operating System | Package | Download |
 |------------------|----------|----------|
-| Windows | MSI Installer | [Download](https://github.com/brein-studio/brein-studio/releases/latest/download/BReinStudio-Windows.msi) |
-| macOS | DMG Image | [Download](https://github.com/brein-studio/brein-studio/releases/latest/download/BReinStudio-macOS.dmg) |
-| Linux (Debian/Ubuntu) | DEB Package | [Download](https://github.com/brein-studio/brein-studio/releases/latest/download/BReinStudio-Linux.deb) |
+| Windows x64 | MSI Installer | [Download](https://github.com/brein-studio/brein-studio/releases/latest/download/BReinStudio-Windows.msi) |
+| macOS Apple Silicon (M1/M2/M3/M4) | DMG Image | [Download](https://github.com/brein-studio/brein-studio/releases/latest/download/BReinStudio-macOS.dmg) |
+| Linux x64 (Debian/Ubuntu) | DEB Package | [Download](https://github.com/brein-studio/brein-studio/releases/latest/download/BReinStudio-Linux.deb) |
 
 ## macOS
 
