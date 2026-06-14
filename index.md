@@ -6,22 +6,21 @@ nav_order: 1
 
 # Safe Reinforcement Learning from B Models
 
-Learn policies directly from formal specifications using ProB and B invariants.
+Learn policies directly from executable B specifications using ProB.
 
-[Explore Environments](taxi-driver){: .btn .btn-primary }
-[GitHub](https://github.com/brein-studio/brein-studio){: .btn }
-
+[Download](download){: .btn .btn-primary }
+[Explore Environments](environments){: .btn }
+[GitHub Repository](https://github.com/brein-studio/brein-studio){: .btn }
 
 ## What is BRein Studio?
 
 BRein Studio connects Reinforcement Learning algorithms with executable B specifications.
 
-Instead of implementing an environment manually, an agent interacts directly with a formally specified system through the ProB animator and model-checker.
+Instead of manually implementing the environment dynamics, the agent interacts directly with a formally specified system through the ProB animator and model checker.
 
 <p align="center">
-  <img src="figs/envprob.png" width="700">
+  <img src="figs/envprob.png" width="700" alt="BRein Studio architecture">
 </p>
-
 
 ## Available Environments
 
@@ -30,4 +29,3 @@ Instead of implementing an environment manually, an agent interacts directly wit
 Discrete navigation and pickup/drop-off tasks.
 
 [Open Taxi Driver →](taxi-driver)
-

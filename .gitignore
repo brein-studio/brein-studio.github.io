@@ -5,3 +5,4 @@ _site/
 packaging/B.iconset/
 dist/*.jar
 dist/*.jar
+infos.txt
