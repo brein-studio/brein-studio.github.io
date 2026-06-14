@@ -4,23 +4,35 @@ parent: Environments
 nav_order: 1
 ---
 
-# Taxi Driver
+# Taxi Driver (SafeCab)
 
 {: .info }
 > **Classic Reinforcement Learning Environment**
 >
 > The Taxi Driver environment is inspired by the well-known Taxi problem. The agent must navigate a grid world, pick up a passenger, and deliver it to the requested destination while avoiding dangerous cells.
 
-- Source files: [GitHub Repository](https://github.com/brein-studio/brein-studio/tree/main/taxi_driver)
+## Resources
+
+Clone the repository:
+
+```bash
+git clone https://github.com/brein-studio/brein-studio.git
+```
+
+The Taxi Driver environment is located in:
+
+```text
+brein-studio/taxi_driver
+```
 
 ## Overview
 
-The core environment logic is defined once in the machine `SafeTaxiDriver`. Rewards are defined in file `rewards.def`. Concrete environments are created through separate machines that include this generic specification and instantiate the grid parameters. The repository currently provides two predefined instances:
+The core environment logic is defined once in the machine `SafeTaxiDriver.mch`. Rewards are defined in file `rewards.def`. Concrete environments are created through separate machines that include this generic specification and instantiate the grid parameters. The repository  provides two predefined instances:
 
-- **SafeTaxiDriver_5_5**: a compact 5×5 city;
-- **SafeTaxiDriver_10_10**: a larger 10×10 city with additional dangerous areas.
+- **`SafeTaxiDriver_5_5.mch`**: a compact 5×5 city;
+- **`SafeTaxiDriver_10_10.mch`**: a larger 10×10 city with additional dangerous areas.
 
-Users can easily create their own grids by defining new machines that include `SafeTaxiDriver` and provide different grid dimensions, landmarks, and danger zones.
+Users can easily create their own grids by defining new machines that include `SafeTaxiDriver.mch` and provide different grid dimensions, landmarks, and danger zones.
 
 ### Example Instances
 
@@ -105,7 +117,34 @@ The agent can perform the following actions:
 | Pickup | Pick up the passenger |
 | Dropoff | Drop off the passenger |
 
+## Reward Functions
 
+BRein Studio allows different reward functions to be evaluated on the same formal environment.
+
+| Reward | Description |
+|----------|----------|
+| `reward` | Sparse reward. The agent receives a large reward only when the passenger is successfully delivered. |
+| `ManhattanDistance` | Dense reward based on the Manhattan distance to the current objective (passenger or destination). |
+| `PhaseBonus` | Reward shaping that distinguishes the pickup and delivery phases through additional bonuses. |
+| `Quadratic_Distance` | Stronger distance-based shaping using a quadratic penalty. |
+| `Simplified_Exponential` | Non-linear shaping that rapidly increases rewards near the objective. |
+| `Combined_Attraction` | Simultaneously attracts the taxi toward the passenger and the destination. |
+
+{: .info }
+> **Reward Specification**
+>
+> Reward functions are defined independently from the environment dynamics through B definitions. New reward functions can be added without modifying the state space, operations, or safety properties of the model.
+
+### Example
+
+<pre>
+reward ==
+  IF delivered = 1 THEN
+     1000
+  ELSE
+     -1
+  END;
+</pre>
 
 <p align="center">
   <img src="figs/taxi/taxi-driver.gif" width="350">
