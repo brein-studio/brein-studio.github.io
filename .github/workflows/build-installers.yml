@@ -1,0 +1,73 @@
+name: Build installers
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "dist/brein-studio.jar"
+      - "packaging/**"
+      - ".github/workflows/build-installers.yml"
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Build macOS DMG
+        if: runner.os == 'macOS'
+        run: |
+          jpackage \
+            --name BReinStudio \
+            --type dmg \
+            --input dist \
+            --main-jar brein-studio.jar \
+            --icon packaging/B.icns \
+            --java-options "--enable-native-access=javafx.graphics,javafx.web -Xmx4g" \
+            --add-modules java.base,java.logging,javafx.base,javafx.graphics,javafx.controls,javafx.media,javafx.web
+
+      - name: Build Windows MSI
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          jpackage `
+            --name BReinStudio `
+            --type msi `
+            --input dist `
+            --main-jar brein-studio.jar `
+            --icon packaging/B.ico `
+            --java-options "--enable-native-access=javafx.graphics,javafx.web -Xmx4g" `
+            --add-modules java.base,java.logging,javafx.base,javafx.graphics,javafx.controls,javafx.media,javafx.web
+
+      - name: Build Linux DEB
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fakeroot
+          jpackage \
+            --name BReinStudio \
+            --type deb \
+            --input dist \
+            --main-jar brein-studio.jar \
+            --icon packaging/B.png \
+            --java-options "--enable-native-access=javafx.graphics,javafx.web -Xmx4g" \
+            --add-modules java.base,java.logging,javafx.base,javafx.graphics,javafx.controls,javafx.media,javafx.web
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: BReinStudio-${{ runner.os }}
+          path: |
+            *.dmg
+            *.msi
+            *.deb
