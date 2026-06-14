@@ -117,3 +117,50 @@
 .info p {
   margin: 0;
 }
+
+pre {
+  background: #0f172a;
+  color: #e2e8f0;
+
+  border: 1px solid #334155;
+  border-radius: 10px;
+
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+
+  overflow-x: auto;
+
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.env-card {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+
+  margin: 2rem 0;
+}
+
+.env-image {
+  flex: 0 0 320px;
+}
+
+.env-image img {
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+}
+
+.env-code {
+  flex: 1;
+}
+
+.env-code pre {
+  margin-top: 0;
+}
