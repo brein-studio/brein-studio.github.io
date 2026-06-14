@@ -6,6 +6,11 @@ has_children: true
 
 # Environments
 
+{: .info }
+> **Info**
+>
+> This page is under construction.
+
 ## Safe cab taxi driver
 
 <div style="display: flex; align-items: center; gap: 24px; margin: 1.5rem 0;">
@@ -28,4 +33,3 @@ has_children: true
 
 </div>
 
-This page is under construction
