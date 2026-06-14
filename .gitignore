@@ -4,3 +4,4 @@ _site/
 .jekyll-metadata
 packaging/B.iconset/
 dist/*.jar
+dist/*.jar
