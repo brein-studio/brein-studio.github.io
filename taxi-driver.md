@@ -25,6 +25,16 @@ The Taxi Driver environment is located in:
 brein-studio/taxi_driver
 ```
 
+## Quick tour
+
+- Open machine `SafeTaxiDriver_5_5.mch`, 
+- Load th VisB file: `TaxiDriverEnvironment.visb.json`,
+- Select reward mode **Once-and-For-All (subscribed state formula)**,
+- Enter `ManhattanDistance` (or any other reward from fil `rewards.def`),
+- Choose **MPI**,
+- Click **Explore**, then **Run**.
+- To automatically execute the learned policy, press **⏭**
+
 ## Overview
 
 The core environment logic is defined once in the machine `SafeTaxiDriver.mch`. Rewards are defined in file `rewards.def`. Concrete environments are created through separate machines that include this generic specification and instantiate the grid parameters. The repository  provides two predefined instances:
