@@ -119,7 +119,7 @@ The agent can perform the following actions:
 
 ## Reward Functions
 
-BRein Studio allows different reward functions to be evaluated on the same formal environment.
+Different reward functions are defined in `rewards.def`. 
 
 | Reward | Description |
 |----------|----------|
@@ -129,11 +129,6 @@ BRein Studio allows different reward functions to be evaluated on the same forma
 | `Quadratic_Distance` | Stronger distance-based shaping using a quadratic penalty. |
 | `Simplified_Exponential` | Non-linear shaping that rapidly increases rewards near the objective. |
 | `Combined_Attraction` | Simultaneously attracts the taxi toward the passenger and the destination. |
-
-{: .info }
-> **Reward Specification**
->
-> Reward functions are defined independently from the environment dynamics through B definitions. New reward functions can be added without modifying the state space, operations, or safety properties of the model.
 
 ### Example
 
