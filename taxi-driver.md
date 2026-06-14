@@ -25,15 +25,15 @@ The Taxi Driver environment is located in:
 brein-studio/taxi_driver
 ```
 
-## Quick tour
+## Quick Tour
 
-- Open machine `SafeTaxiDriver_5_5.mch`, 
-- Load th VisB file: `TaxiDriverEnvironment.visb.json`,
+- Open machine `SafeTaxiDriver_5_5.mch`,
+- Load the VisB file `TaxiDriverEnvironment.visb.json`,
 - Select reward mode **Once-and-For-All (subscribed state formula)**,
-- Enter `ManhattanDistance` (or any other reward from file `rewards.def`),
+- Enter `ManhattanDistance` (or any other reward defined in `rewards.def`),
 - Choose **MPI**,
-- Click **Explore**, then **Run**.
-- To automatically execute the learned policy, press **⏭**
+- Click **Explore**, then **Run**,
+- To automatically execute the learned policy, click **⏭**.
 
 ## Overview
 

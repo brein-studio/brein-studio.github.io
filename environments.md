@@ -33,3 +33,67 @@ has_children: true
 
 </div>
 
+## Puzzle
+
+<div style="display: flex; align-items: center; gap: 24px; margin: 1.5rem 0;">
+  <div>
+    <img src="figs/puzzle/puzzle.png" width="210">
+  </div>
+  <div>
+    <p>
+      Coming soon.
+    </p>
+    <!-- <p>
+      <a href="taxi-driver">Open Taxi Driver →</a>
+    </p> -->
+  </div>
+</div>
+
+## Tic-Tac-Toe
+
+<div style="display: flex; align-items: center; gap: 24px; margin: 1.5rem 0;">
+  <div>
+    <img src="figs/tictac/tictac.png" width="210">
+  </div>
+  <div>
+    <p>
+      Coming soon.
+    </p>
+    <!-- <p>
+      <a href="taxi-driver">Open Taxi Driver →</a>
+    </p> -->
+  </div>
+</div>
+
+## Adaptive cruise control
+
+<div style="display: flex; align-items: center; gap: 24px; margin: 1.5rem 0;">
+  <div>
+    <img src="figs/cruise/cruise.png" width="310">
+  </div>
+  <div>
+    <p>
+      Coming soon.
+    </p>
+    <!-- <p>
+      <a href="taxi-driver">Open Taxi Driver →</a>
+    </p> -->
+  </div>
+</div>
+
+## Mountain car
+
+<div style="display: flex; align-items: center; gap: 24px; margin: 1.5rem 0;">
+  <div>
+    <img src="figs/mountaincar/mountaincar.png" width="310">
+  </div>
+  <div>
+    <p>
+      Coming soon.
+    </p>
+    <!-- <p>
+      <a href="taxi-driver">Open Taxi Driver →</a>
+    </p> -->
+  </div>
+</div>
+
