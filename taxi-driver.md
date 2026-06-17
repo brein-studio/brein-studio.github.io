@@ -11,6 +11,10 @@ nav_order: 1
 >
 > The Taxi Driver environment is inspired by the well-known Taxi problem. The agent must navigate a grid world, pick up a passenger, and deliver it to the requested destination while avoiding dangerous cells.
 
+### Contributors
+- Akram Idani 
+- Rayane Idani
+
 ## Resources
 
 Clone the repository:

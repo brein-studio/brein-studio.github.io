@@ -22,6 +22,8 @@ Instead of manually implementing the environment dynamics, the agent interacts d
   <img src="figs/envprob.png" width="700" alt="BRein Studio architecture">
 </p>
 
+
+
 ## Available Environments
 
 ### Taxi Driver
