@@ -13,6 +13,7 @@ nav_order: 1
 
 ### Contributors
 - Akram Idani 
+- Natacha Maffo Fonkou
 - Rayane Idani
 
 ## Resources
