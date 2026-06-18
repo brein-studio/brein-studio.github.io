@@ -23,11 +23,3 @@ Instead of manually implementing the environment dynamics, the agent interacts d
 </p>
 
 
-
-## Available Environments
-
-### Taxi Driver
-
-Discrete navigation and pickup/drop-off tasks.
-
-[Open Taxi Driver →](taxi-driver)
