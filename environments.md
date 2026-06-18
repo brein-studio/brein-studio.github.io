@@ -37,7 +37,7 @@ has_children: true
 
 <div style="display: flex; align-items: center; gap: 24px; margin: 1.5rem 0;">
   <div>
-    <img src="figs/puzzle/puzzle.png" width="210">
+    <img src="figs/puzzle/puzzle.gif" width="210">
   </div>
   <div>
     <p>
