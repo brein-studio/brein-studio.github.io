@@ -41,9 +41,6 @@ has_children: true
   </div>
   <div>
     <p>
-      Coming soon.
-    </p>
-    <p>
       <a href="puzzle">Open Puzzle →</a>
     </p> 
   </div>
