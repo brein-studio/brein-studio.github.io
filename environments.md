@@ -43,9 +43,9 @@ has_children: true
     <p>
       Coming soon.
     </p>
-    <!-- <p>
-      <a href="taxi-driver">Open Taxi Driver →</a>
-    </p> -->
+    <p>
+      <a href="puzzle">Open Puzzle →</a>
+    </p> 
   </div>
 </div>
 
