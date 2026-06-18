@@ -1,4 +1,4 @@
-title: BRein Studio
+title: BRein-Studio
 description: Safe Reinforcement Learning from B Models
 
 remote_theme: just-the-docs/just-the-docs
@@ -12,6 +12,10 @@ nav_enabled: true
 search_enabled: true
 
 aux_links:
-  GitHub Repository: https://github.com/brein-studio/brein-studio
+  "GitHub Repository":
+    - "https://github.com/brein-studio/brein-studio"
+
+  "Contact":
+    - "mailto:akram.idani@univ-grenoble-alpes.fr"
 
 color_scheme: light
