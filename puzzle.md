@@ -50,3 +50,7 @@ Total pipeline
     | Cache rewards = 194945 ms 
     | total = 317471 ms = 5,29mn
 </pre>
+
+<p align="center">
+  <img src="figs/puzzle/puzzle.gif" width="250">
+</p>
