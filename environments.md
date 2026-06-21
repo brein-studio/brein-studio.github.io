@@ -6,17 +6,14 @@ has_children: true
 
 # Environments
 
-{: .info }
-> **Info**
->
-> This page is under construction.
-
 ## Safe cab taxi driver
 
 <div style="display: flex; align-items: center; gap: 24px; margin: 1.5rem 0;">
 
   <div>
-    <img src="figs/taxi/taxi-driver.gif" width="500" alt="Taxi Driver animation">
+    <img src="figs/taxi/taxi-driver.gif"
+     class="env-preview"
+     alt="Taxi Driver animation">
   </div>
 
   <div>
@@ -37,12 +34,24 @@ has_children: true
 
 <div style="display: flex; align-items: center; gap: 24px; margin: 1.5rem 0;">
   <div>
-    <img src="figs/puzzle/puzzle.gif" width="210">
+    <img src="figs/puzzle/puzzle.gif"
+     class="env-preview"
+     alt="Puzzle animation">
   </div>
+
   <div>
+
+    <p>
+      The Puzzle environment models the classical 8-puzzle in which an agent must
+      rearrange numbered tiles into their goal configuration by sliding one tile at a
+      time into the empty cell. The environment illustrates reinforcement learning on a
+      large deterministic state space with more than 180,000 reachable states.
+    </p>
+
     <p>
       <a href="puzzle">Open Puzzle →</a>
-    </p> 
+    </p>
+
   </div>
 </div>
 
